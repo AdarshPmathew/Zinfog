@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="delivery_charge_product" model="product.template">
+            <field name="name">Delivery Charges</field>
+            <field name="detailed_type">service</field>
+            <field name="is_delivery_charge_product">True</field>
+        </record>
+    </data>
+</odoo>
